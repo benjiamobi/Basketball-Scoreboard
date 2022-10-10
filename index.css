@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: #1b244a;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 575px;
+    height: 385px;
+    margin: 200px auto 20px;
+    /* take out border when done */
+    /* border: 3px solid black; */
+    padding: 68px 0;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #eeeeee;
+}
+
+.score {
+    border: none;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    text-align: center;
+    border-radius: 5px;
+    color: #f94f6d;
+    font-family: 'cursed timer ulil';
+    font-size: 90px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 21px 0 26px;
+}
+
+.leader {
+    border: 3px solid #9aabdb;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    text-align: center;
+    border-radius: 5px;
+    color: #f94f6d;
+    font-family: 'cursed timer ulil';
+    font-size: 90px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 21px 0 26px;
+}
+.no-leader {
+    border: none;
+}
+
+#add-points-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #1b244a;
+    border: 1px solid #9aabdb;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    color: #9aabdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'cursed timer ulil';
+    cursor: pointer;
+}
+
+button:hover {
+    background: #080001;
+    font-weight: bold;
+}
+
+#new-game {
+    margin: 10px auto;
+    width: 150px;
+    background: #1b244a;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 25px;
+}   
+
+#new-game:hover {
+    background: #080001;
+}
